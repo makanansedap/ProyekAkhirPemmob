@@ -2,6 +2,7 @@ package id.ac.umn.proyekakhirpemmob;
 
 import android.app.Activity;
 import android.os.Bundle;
+import android.widget.Button;
 
 public class MainActivity extends Activity {
 
@@ -9,5 +10,8 @@ public class MainActivity extends Activity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+
+        Button testButton = (Button) findViewById(R.id.button_makanan);
+
     }
 }
