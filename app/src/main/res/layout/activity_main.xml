@@ -6,15 +6,6 @@
     android:layout_height="match_parent"
     tools:context="id.ac.umn.proyekakhirpemmob.MainActivity">
 
-    <TableRow>
-        <Button
-            android:text="makanan"
-            android:id="@+id/button_makanan"
-            android:layout_weight="1"
-            android:layout_width="0dp"
-            android:layout_height="wrap_content"
-            />
-    </TableRow>
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
